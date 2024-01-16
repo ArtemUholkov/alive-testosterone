@@ -72,6 +72,61 @@
         </div>
       </div>
     </header>
+    <div class="wrap_form_mob">
+      <div class="main_form_wrapper">
+        <div class="main_form_content_wrapper">
+          <form
+            class="sub_form_form forma"
+            action="https://postmail.invotes.com/send"
+            method="post"
+            id="email_form2"
+          >
+            <p class="main_form_title">You can leave your details to schedule a consultation</p>
+            <div class="mainform_inputs_wrapper">
+              <img src="img/main/cross.png" alt="" class="cross" />
+              <div class="input-container">
+                <input required type="text" name="Subject" placeholder="Enter your name" />
+                <label>Name</label>
+              </div>
+              <div class="input-container">
+                <input
+                  required
+                  type="tel"
+                  name="extra_phone_number"
+                  placeholder="Enter your phone number"
+                />
+                <label>Phone</label>
+              </div>
+              <div class="input-container">
+                <input required type="email" name="text" placeholder="Enter your email address" />
+                <label>Email</label>
+              </div>
+
+              <div class="input-container">
+                <input
+                  id="submit_form2"
+                  type="submit"
+                  value="Confirm"
+                  class="main_button form_button"
+                />
+              </div>
+              <input type="hidden" name="access_token" value="" />
+
+              <input
+                type="hidden"
+                name="success_url"
+                value=".?message=Email+Successfully+Sent%21&isError=0"
+              />
+              <input
+                type="hidden"
+                name="error_url"
+                value=".?message=Email+could+not+be+sent.&isError=1"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <section class="main_picture">
       <div class="main_picture_content_wrapper">
         <div class="main_text_wrapper">
