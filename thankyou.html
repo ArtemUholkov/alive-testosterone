@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONTS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Boostrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Boostrap  -->
+    <link rel="icon" href="img/global/titlelogo.png" type="image/icon type" />
+    <title>ALIVE - TOTAL WELLNESS</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/thankyou.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_wrapper mycontainer">
+        <nav class="navbar">
+          <a href="index.html" class="logo_wrapper">
+            <img src="img/header/logo64x62.png" alt="logo" class="main-logo logo-white" />
+            <img
+              src="img/header/logoblack41x40.png"
+              alt="logo"
+              class="main-logo logo-hide logo-color"
+            />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <section class="main_picture">
+      <div class="main_picture_content_wrapper">
+        <div class="thankyou_text_wrapper">
+          <h1>
+            Thank you!<br />
+            We will contact you soon!
+          </h1>
+          <a href="index.html" class="main_button mob_button thankyoubutton" onclick="scrollToSub()"
+            >Back to main page</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- <script>
+      var submitButton = document.getElementById('submit_form');
+      var form = document.getElementById('email_form');
+      form.addEventListener('submit', function (e) {
+        setTimeout(function () {
+          submitButton.value = 'Sending...';
+          submitButton.disabled = true;
+        }, 1);
+        setTimeout(() => {
+          window.location.href = 'thankyou.html';
+        }, 1000);
+      });
+    </script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/before-after.js"></script>
+
+    <script>
+      var swiper = new Swiper('.mySwiper3', {
+        slidesOffsetAfter: 150,
+        slidesOffsetBefore: 0,
+        slidesPerView: 1,
+        // spaceBetween: 150,
+        slidesPerView: 'auto',
+        allowTouchMove: true,
+        navigation: {
+          nextEl: '.team_button-next',
+          prevEl: '.team_button-prev',
+          disabledClass: 'disabled_swiper_button',
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesOffsetAfter: 20,
+            slidesOffsetBefore: 0,
+            slidesPerView: 1,
+            spaceBetween: 40,
+            slidesPerView: 'auto',
+            allowTouchMove: false,
+          },
+          755: {
+            slidesOffsetAfter: 50,
+            slidesOffsetBefore: 0,
+            slidesPerView: 1,
+            // spaceBetween: 100,
+            slidesPerView: 'auto',
+            allowTouchMove: false,
+          },
+          // when window width is >= 480px
+          1100: {
+            slidesOffsetAfter: 100,
+            slidesOffsetBefore: 0,
+            slidesPerView: 1,
+            // spaceBetween: 200,
+            slidesPerView: 'auto',
+          },
+          // when window width is >= 640px
+          1510: {
+            slidesOffsetAfter: 150,
+            slidesOffsetBefore: 0,
+            slidesPerView: 1,
+            // spaceBetween: 150,
+            slidesPerView: 'auto',
+          },
+        },
+      });
+    </script>
+    <script src="js/script.js"></script>
+    <script>
+      new BeforeAfter({
+        id: '#one',
+      });
+      new BeforeAfter({
+        id: '#two',
+      });
+      new BeforeAfter({
+        id: '#three',
+      });
+    </script>
+  </body>
+</html>

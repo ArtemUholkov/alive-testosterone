@@ -1,0 +1,217 @@
+.benefits {
+  position: relative;
+}
+.benefits_wrapper {
+  padding: 150px 150px;
+}
+.benefits_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.benefits_content_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 88px;
+}
+.benefits_content_wrapper {
+  padding: 0;
+}
+.benefits_icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 28px;
+}
+.benefits_content_item_title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--usual-decorations);
+  margin-bottom: 12px;
+}
+.benefits_content_item_text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--usual-decorations);
+  max-width: 519px;
+}
+.benefits_image {
+  top: 123px;
+}
+.benefits_bottle {
+  max-width: 807px;
+  max-height: 807px;
+}
+.benefits_mob_image {
+  display: none;
+}
+h2 {
+  font-family: 'Newsreader';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--usual-decorations);
+  margin-bottom: 60px;
+}
+.h2_mobile {
+  display: none;
+}
+.benefits_button {
+  max-width: 382px;
+  height: 80px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media (max-width: 1750px) {
+  .benefits_wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .benefits_content_wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 1560px) {
+  .benefits_wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .benefits_content_wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 1400px) {
+  .benefits_wrapper {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 1465px) {
+  .intro_content_item_image_image {
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .benefits_image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 300px;
+    text-align: center;
+  }
+  .benefits_content_item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  /* .benefits_content_wrapper {
+    padding-top: 60px;
+  } */
+}
+@media (max-width: 1275px) {
+  .benefits_wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .benefits_content_wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .benefits_wrapper {
+    padding-top: 20px;
+  }
+  .benefits_content_wrapper {
+    padding-top: 0px;
+  }
+  .benefits_content_item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    gap: 8px;
+  }
+  .benefits_image {
+    display: none;
+  }
+  .benefits_mob_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 335px;
+    max-height: 335px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .benefits_bottle {
+    height: 455px;
+    width: 455px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .benefits_icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .benefits_content_item_title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .benefits_content_item_text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .benefits_content_wrapper {
+    padding-top: 0px;
+  }
+
+  .benefits_content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .h2_regular {
+    display: none;
+  }
+  .h2_mobile {
+    display: block;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 720px) {
+  .benefits_wrapper {
+    padding-bottom: 60px;
+  }
+  .benefits_content_wrapper {
+    padding-bottom: 0px;
+  }
+  .benefits_button {
+    max-width: 335px;
+    height: 48px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+}

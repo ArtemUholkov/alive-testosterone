@@ -1,0 +1,368 @@
+.main_picture {
+  min-height: 100svh;
+  width: 100svw;
+  background: url('../img/main/bgpic.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.bg_form {
+  position: absolute;
+  right: -1500px;
+  top: -25%;
+  width: 55%;
+  height: 150%;
+  background: rgba(0, 63, 60, 0.8);
+  backdrop-filter: blur(15px);
+  border-radius: 50% 0 0 50%;
+  transition: all 1s;
+}
+.main_form_wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.main_form_content_wrapper {
+  position: absolute;
+  top: 32%;
+  left: 204px;
+}
+.main_form_title {
+  color: #fff;
+  font-family: 'Newsreader';
+  font-size: 42px;
+  max-width: 463px;
+  font-weight: 400;
+  line-height: 52px;
+  margin-bottom: 22px;
+  width: 1200px;
+}
+.mainform_inputs_wrapper {
+  padding: 52px;
+  background-color: #deebec;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.openSpace {
+  right: 0;
+  transition: all 1s;
+}
+.cross {
+  height: 20px;
+  width: 20px;
+  align-self: flex-end;
+  transition: all 0.3s;
+}
+.cross:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.main_picture_content_wrapper {
+  padding: 0px 150px;
+  height: 100svh;
+  display: flex;
+
+  justify-content: space-between;
+}
+.main_text_wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 30svh;
+}
+h1 {
+  max-width: 1200px;
+  font-family: 'Newsreader', serif;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--main-text-color);
+  line-height: 0.8;
+  transition: all 1.5s;
+}
+.h1item2 {
+  display: none;
+  opacity: 0;
+  transition: all 1s;
+  line-height: normal;
+}
+.button_main {
+  display: flex;
+  padding: 22px 62px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--usual-decorations);
+  color: white;
+  text-decoration: none;
+  margin-top: 60px;
+  transition: all 0.3s;
+}
+.button_main:hover {
+  background: #476665;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.button_main:active {
+  background: #001f1d;
+}
+.main_text_subtext {
+  margin-top: 8px;
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+  max-width: 1000px;
+  line-height: normal;
+  font-size: 42px;
+  font-family: 'Newsreader', serif;
+  font-size: 42px;
+  font-weight: 400;
+  transition: all 1.5s;
+}
+.hide_subtitle {
+  transition: all 1.5s;
+}
+.secondSub {
+  display: none;
+  opacity: 0;
+  transition: all 1.5s;
+}
+.wrap_title {
+  opacity: 0;
+  transition: all 1.5s;
+}
+.hide_title {
+  transition: all 1.5s;
+}
+.hide_h1title {
+  opacity: 0;
+  transition: all 1.5s;
+}
+.show_h2title {
+  display: block;
+  transition: all 1.5s;
+}
+.make_opacity_normal {
+  opacity: 1;
+  transition: all 1.5s;
+}
+.translate_item {
+}
+
+@media (max-width: 1720px) {
+  h1 {
+    font-size: 64px;
+    max-width: 1000px;
+  }
+  .main_text_subtext {
+    font-size: 20px;
+    max-width: 1000px;
+  }
+}
+@media (max-width: 1620px) {
+  .main_picture_content_wrapper {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    width: 800px;
+  }
+  .main_picture_content_wrapper {
+    padding: 0px 50px;
+  }
+}
+
+@media (max-width: 950px) {
+  .main_picture {
+    min-height: 100svh;
+    width: 100svw;
+  }
+
+  h1 {
+    width: auto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  .main_picture_content_wrapper {
+    padding: 0px 50px;
+    gap: 10px;
+  }
+  .main_text_subtext {
+    font-size: 18px;
+    max-width: auto;
+  }
+
+  .main_text_wrapper {
+    margin-top: 30svh;
+  }
+}
+@media (max-width: 745px) {
+  .main_picture_content_wrapper {
+    padding: 0px 20px;
+  }
+}
+.main_picture {
+  background-position: 60%;
+}
+@media (max-width: 600px) {
+  .main_text_wrapper {
+    margin-top: 38svh;
+  }
+  /* .main_form_wrapper {
+    display: none;
+  } */
+  .mainsect_button {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 100px;
+  }
+  .main_text_subtext {
+    margin-top: 16px;
+  }
+  .main_picture {
+    background-position: 70%;
+  }
+  .main_text_wrapper {
+    align-items: center;
+  }
+  h1 {
+    margin: 0 auto;
+    font-size: 42px;
+  }
+  .main_text_subtext {
+    display: block;
+    font-size: 22px;
+    margin: 0 auto;
+    max-width: 423px;
+    margin-top: 8px;
+  }
+  .main_picture_content_wrapper {
+    flex-direction: column;
+  }
+  .button_main {
+    margin-top: 40px;
+  }
+}
+
+/* @media (max-height: 550px) {
+  .main_form_wrapper {
+    display: none;
+  }
+} */
+@media (max-height: 550px) {
+  .main_text_wrapper {
+    margin-top: auto;
+    justify-content: flex-end;
+  }
+  .mainsect_button {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 50px;
+  }
+  .main_text_subtext {
+    margin-top: 16px;
+  }
+}
+@media (max-width: 475px) {
+  .main_picture {
+    background: url('../img/main/mobimg.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    width: 280px;
+  }
+  .main_text_subtext {
+    width: 280px;
+    font-size: 22px;
+  }
+}
+
+@media (max-height: 800px) {
+  .main_form_content_wrapper {
+    top: 25.5%;
+  }
+}
+@media (max-height: 740px) {
+  .main_form_content_wrapper {
+    top: 26.5%;
+  }
+  .main_form_title {
+    font-size: 22px;
+
+    line-height: 140%;
+    margin: 0 auto;
+  }
+}
+/* @media (max-width: 900px) {
+  .sub_wrapper {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .sub_logo {
+    top: 45px;
+    right: 23px;
+    left: auto;
+    bottom: auto;
+    height: 125px;
+    width: 132px;
+  }
+  .sub {
+    padding: 60px 20px;
+  }
+  .sub_content_text {
+    text-align: center;
+  }
+  input[type='text'] {
+    font-size: 14px;
+  }
+  input[type='text']:focus ~ label,
+  input[type='text']:valid ~ label {
+    font-size: 14px;
+  }
+
+  input[type='tel'] {
+    font-size: 14px;
+  }
+  input[type='tel']:focus ~ label,
+  input[type='tel']:valid ~ label {
+    font-size: 14px;
+  }
+
+  input[type='email'] {
+    font-size: 14px;
+  }
+  input[type='email']:focus ~ label,
+  input[type='email']:valid ~ label {
+    font-size: 14px;
+  }
+  label {
+    font-size: 14px;
+  }
+  .form_button {
+    font-size: 14px;
+
+    font-weight: 600;
+    padding: 15px 24px;
+  }
+}
+@media (max-width: 600px) {
+  .form_button {
+    display: flex;
+  }
+} */

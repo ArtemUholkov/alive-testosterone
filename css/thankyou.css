@@ -1,0 +1,22 @@
+h1 {
+  font-size: 35px;
+}
+.main_picture_content_wrapper {
+  justify-content: center;
+  gap: 30px;
+  margin-top: 0svh;
+}
+@media (max-width: 600px) {
+  .main_picture_content_wrapper {
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 30svh;
+  }
+}
+.thankyou_text_wrapper {
+  margin-top: 35svh;
+  text-align: center;
+}
+.thankyoubutton {
+  margin-top: 20px;
+}
