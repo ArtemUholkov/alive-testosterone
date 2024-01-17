@@ -344,7 +344,7 @@ h1,
 
 @media (max-width: 1150px) {
   .wrap_form_mob {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 
@@ -352,6 +352,7 @@ h1,
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
   }
   .main_form_content_wrapper {
     position: static;

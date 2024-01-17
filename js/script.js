@@ -150,3 +150,40 @@ if (window.innerWidth > 1150) {
     }
   });
 }
+
+const oneblock = document.querySelector('.intro_item_one');
+const twoblock = document.querySelector('.intro_item_two');
+const threeblock = document.querySelector('.intro_item_three');
+const fourblock = document.querySelector('.intro_item_four');
+const botImg = document.querySelector('.intro_bottle_img');
+
+if (window.innerWidth > 1200) {
+  setInterval(() => {
+    oneblock.classList.add('intro_item_one_move');
+    twoblock.classList.add('intro_item_two_move');
+    threeblock.classList.add('intro_item_three_move');
+    fourblock.classList.add('intro_item_four_move');
+    botImg.classList.add('intro_bottle_img_rotate');
+    setTimeout(() => {
+      oneblock.classList.remove('intro_item_one_move');
+      twoblock.classList.remove('intro_item_two_move');
+      threeblock.classList.remove('intro_item_three_move');
+      fourblock.classList.remove('intro_item_four_move');
+      botImg.classList.remove('intro_bottle_img_rotate');
+    }, 2000);
+  }, 4000);
+} else {
+  setInterval(() => {
+    oneblock.classList.add('intro_item_one_move');
+    twoblock.classList.add('intro_item_two_move');
+    threeblock.classList.add('intro_item_three_move');
+    fourblock.classList.add('intro_item_four_move');
+
+    setTimeout(() => {
+      oneblock.classList.remove('intro_item_one_move');
+      twoblock.classList.remove('intro_item_two_move');
+      threeblock.classList.remove('intro_item_three_move');
+      fourblock.classList.remove('intro_item_four_move');
+    }, 2000);
+  }, 4000);
+}
