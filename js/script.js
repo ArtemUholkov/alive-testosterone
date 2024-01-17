@@ -187,3 +187,50 @@ if (window.innerWidth > 1200) {
     }, 2000);
   }, 4000);
 }
+
+const firstCircles = document.querySelectorAll('.first_circle');
+const secondCircles = document.querySelectorAll('.second_circle');
+const thirdCircles = document.querySelectorAll('.third_circle');
+const fourthCircles = document.querySelectorAll('.fourth_circle');
+const fifthCircles = document.querySelectorAll('.fifth_circle');
+
+// firstCircles.forEach((item) => {
+//   setInterval(() => {
+//     item.classList.remove('modify_circle_one');
+//   }, 999);
+//   setInterval(() => {
+//     item.classList.add('modify_circle_one');
+//   }, 1000);
+// });
+// secondCircles.forEach((item) => {
+//   setInterval(() => {
+//     item.classList.remove('modify_circle_two');
+//   }, 2001);
+//   setInterval(() => {
+//     item.classList.add('modify_circle_two');
+//   }, 2002);
+// });
+// thirdCircles.forEach((item) => {
+//   setInterval(() => {
+//     item.classList.remove('modify_circle_three');
+//   }, 2001);
+//   setInterval(() => {
+//     item.classList.add('modify_circle_three');
+//   }, 2002);
+// });
+// fourthCircles.forEach((item) => {
+//   setInterval(() => {
+//     item.classList.remove('modify_circle_four');
+//   }, 2001);
+//   setInterval(() => {
+//     item.classList.add('modify_circle_four');
+//   }, 2002);
+// });
+// fifthCircles.forEach((item) => {
+//   setInterval(() => {
+//     item.classList.remove('modify_circle_five');
+//   }, 2001);
+//   setInterval(() => {
+//     item.classList.add('modify_circle_five');
+//   }, 2002);
+// });

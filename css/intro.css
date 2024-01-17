@@ -112,7 +112,7 @@
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
-  max-width: 240px;
+  max-width: 266px;
 }
 .make_bg {
   position: absolute;
@@ -145,14 +145,14 @@
 }
 .intro_item_two {
   position: absolute;
-  bottom: 100px;
-  left: -30px;
+  bottom: 0px;
+  left: 0;
   z-index: 100;
   transition: all 0.7s;
 }
 .intro_item_three {
   position: absolute;
-  top: 50px;
+  top: 0;
   right: 30px;
   z-index: 100;
   transition: all 0.7s;
@@ -170,14 +170,14 @@
   transition: all 0.7s;
 }
 .intro_item_two_move {
-  bottom: 90px;
-  left: -20px;
+  bottom: -10px;
+  left: -5px;
   z-index: 100;
   transition: all 0.7s;
 }
 .intro_item_three_move {
-  top: 0px;
-  right: 80px;
+  top: 50px;
+  right: 0;
   z-index: 100;
   transition: all 0.7s;
 }
