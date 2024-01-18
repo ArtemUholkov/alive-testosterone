@@ -85,21 +85,53 @@
   left: 30%;
 }
 .circles_wrapper {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   border-radius: 50%;
   background-color: #deebec;
 }
 .fst_circ {
-  top: 40%;
-  left: 0;
+  top: 5%;
+  left: 170px;
 }
 .sec_circ {
-  top: 80%;
-  left: 0;
+  top: 40%;
+  left: 135px;
+}
+.trd_circ {
+  top: 30%;
+  right: 150px;
+}
+.fth_circ {
+  top: 65%;
+  right: 140px;
 }
 
+.fst_arrow,
+.snd_arrow,
+.trd_arrow,
+.fth_arrow {
+  position: absolute;
+}
+.fst_arrow {
+  top: -90px;
+  left: 35px;
+  transform: rotate(-20deg);
+}
+.snd_arrow {
+  left: -50px;
+  top: 170px;
+}
+.trd_arrow {
+  top: -50px;
+  right: 35px;
+}
+
+.fth_arrow {
+  right: 0;
+  top: 210px;
+}
 /* .first_circle {
   display: block;
   border: 1px solid var(--usual-decorations);
@@ -202,8 +234,8 @@
 } */
 .circle_all {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: 50%;
   height: 70px;
   margin-left: auto;
   margin-right: auto;
@@ -333,5 +365,97 @@
     opacity: 0;
     width: 70px;
     height: 70px;
+  }
+}
+
+.benefits_button {
+  width: 227px;
+  margin-top: 60px;
+}
+@media (max-width: 1910px) {
+  .benefits_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 100px;
+  }
+}
+@media (max-width: 1810px) {
+  .benefits_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 50px;
+  }
+}
+@media (max-width: 1700px) {
+  .fst_arrow,
+  .snd_arrow,
+  .trd_arrow,
+  .fth_arrow {
+    display: none;
+  }
+}
+@media (max-width: 1600px) {
+  .benefits_img_wrapper {
+    left: 28%;
+  }
+}
+@media (max-width: 1520px) {
+  .benefits_img_wrapper {
+    left: 24%;
+  }
+}
+@media (max-width: 1420px) {
+  .benefits_img_wrapper {
+    display: none;
+  }
+  .wrap_2 {
+    gap: 100px;
+  }
+  .thr_item {
+    transform: translateX(0px);
+  }
+}
+@media (max-width: 1200px) {
+  .benefits_content_wrapper {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .wrap_2 {
+    gap: 60px;
+  }
+}
+@media (max-width: 733px) {
+  .benefits_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px;
+  }
+  .benefits_content_item {
+    width: 100%;
+    height: auto;
+  }
+  .benefits_content_item_title_text {
+    white-space: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .section_title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .benefits_content_item_icon {
+    width: 48px;
+  }
+  .benefits_content_item_title_text {
+    text-align: center;
+    font-size: 24px;
+  }
+  .benefits_content_item_subtitle_text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .benefits_button {
+    margin: 0 auto;
+    margin-top: 40px;
   }
 }
