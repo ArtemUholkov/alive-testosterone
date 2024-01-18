@@ -1,8 +1,12 @@
 .subscribe {
   background: url('../img/subscribe/bg.png');
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 1000px;
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
 }
 .sub_form_wrapper {
   width: 50%;
@@ -15,7 +19,20 @@
 .sub_capture {
   width: 50%;
 }
-
+.sub_form_bg {
+  right: 0;
+  position: absolute;
+  top: -25%;
+  width: 55%;
+  height: 150%;
+  background: rgba(0, 63, 60, 0.8);
+  backdrop-filter: blur(15px);
+  border-radius: 50% 0 0 50%;
+  transition: all 1s;
+}
+.sub_wrap_form {
+  padding-top: 90px;
+}
 .sub_subform {
   margin-left: 50px;
   padding: 60px;
@@ -240,5 +257,49 @@ input::placeholder {
     width: 100%;
     height: auto;
     object-fit: fill;
+  }
+}
+@media (max-width: 1700px) {
+  .subscribe {
+    height: 800px;
+  }
+}
+@media (max-width: 1372px) {
+  .subscribe {
+    height: 600px;
+  }
+  .sub_content_wrapper {
+    top: 20%;
+  }
+}
+@media (max-width: 1150px) {
+  .sub_form_bg {
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: transparent;
+  }
+  .sub_form_wrapper_item {
+    width: auto;
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .subscribe {
+    background: transparent;
+    height: 777px;
+  }
+  .main_form_wrapper {
+    background-color: #5d9da2;
+  }
+  .mob_title_sub {
+    display: block;
+    max-width: 194px;
+    font-family: 'Newsreader';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%;
+    color: white;
+    margin-left: -50px;
   }
 }
