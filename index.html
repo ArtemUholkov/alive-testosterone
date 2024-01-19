@@ -24,7 +24,7 @@
     <!-- Boostrap  -->
     <link rel="icon" href="img/global/logo64x62.png" type="image/icon type" />
     <title>Alive Total Wellness - Testosterone Replacement Therapy</title>
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
@@ -41,7 +41,7 @@
             <li><p class="nav_elem" href="#" onclick="scrollToAbout()">About</p></li>
             <li><p class="nav_elem" href="#" onclick="scrollToBenefits()">Benefits</p></li>
             <li><p class="nav_elem" href="#" onclick="scrollToHow()">How it works</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToBefore()">Before & After</p></li>
+            <li><p class="nav_elem" href="#" onclick="scrollToSub()">Contact Us</p></li>
           </ul>
           <div class="burger">
             <div class="burger_space" id="burger">
@@ -65,7 +65,7 @@
                 <p class="nav_elem_mobile" href="" onclick="scrollToHow()">How it works</p>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToBefore()">Before & After</p>
+                <p class="nav_elem_mobile" href="" onclick="scrollToSub()">Contact Us</p>
               </li>
             </ul>
           </div>
@@ -130,14 +130,28 @@
     <section class="main_picture">
       <div class="main_picture_content_wrapper">
         <div class="main_text_wrapper">
-          <h1 class="h1item h1item1">Awaken Your <span class="hide_title">Strength</span></h1>
+          <h1
+            class="h1item h1item1"
+            data-aos="fade-down"
+            data-aos-duration="500"
+            data-aos-delay="100"
+          >
+            Awaken Your <span class="hide_title">Strength</span>
+          </h1>
           <h1 class="h1item h1item2">Strength</h1>
 
-          <p class="main_text_subtext">
+          <p
+            class="main_text_subtext"
+            data-aos="fade-down"
+            data-aos-duration="500"
+            data-aos-delay="500"
+          >
             Navigate Men's Health with <span class="hide_subtitle">Testosterone Therapy</span>
           </p>
           <p class="main_text_subtext secondSub">Testosterone Therapy</p>
-          <p class="button_main">GET NOW</p>
+          <div data-aos="fade-down" data-aos-duration="500" data-aos-delay="1000">
+            <p class="button_main">GET NOW</p>
+          </div>
         </div>
       </div>
       <div class="bg_form">
@@ -198,7 +212,7 @@
     </section>
     <section class="intro" id="price">
       <div class="intro_content_wrapper">
-        <div class="intro_texts_wrapper">
+        <div class="intro_texts_wrapper" data-aos="fade-right">
           <h2 class="intro_title">Revitalize Your Life with Testosterone Replacement Therapy</h2>
           <div class="intro_info">
             <p class="intro_info_text">
@@ -218,9 +232,9 @@
             <p class="intro_price">$140</p>
             <p class="intro_subprice">/ month</p>
           </div>
-          <a href="" class="button_main intro_button">GET NOW</a>
+          <p class="button_main intro_button" onclick="scrollToSub()">GET NOW</p>
         </div>
-        <div class="intro_bottle_wrapper">
+        <div class="intro_bottle_wrapper" data-aos="fade-left">
           <img src="img/intro/bottle.png" alt="" class="intro_bottle_img" />
           <div class="intro_item_one">
             <div class="intro_item_wrapper">
@@ -321,7 +335,7 @@
     </section>
     <section class="benefits" id="benefits">
       <div class="benefits_wrapper">
-        <h3 class="section_title">Check the benefits</h3>
+        <h3 class="section_title" data-aos="fade-right">Check the benefits</h3>
         <div class="benefits_content_wrapper">
           <div class="benefits_img_wrapper">
             <img src="img/benefits/Bottlebenefits.png" alt="" class="bottle_benefits" />
@@ -368,7 +382,7 @@
             <img src="img/benefits/arrow4.png" alt="" class="fth_arrow" />
           </div>
 
-          <div class="wrap_2">
+          <div class="wrap_2" data-aos="fade-up">
             <div class="benefits_content_item">
               <div class="benefits_content_item_wrapper">
                 <img src="img/benefits/icon1.png" alt="" class="benefits_content_item_icon" />
@@ -391,7 +405,7 @@
               </div>
             </div>
           </div>
-          <div class="wrap_2">
+          <div class="wrap_2" data-aos="fade-up">
             <div class="benefits_content_item thr_item">
               <div class="benefits_content_item_wrapper">
                 <img src="img/benefits/icon3.png" alt="" class="benefits_content_item_icon" />
@@ -416,12 +430,12 @@
             </div>
           </div>
         </div>
-        <a href="" class="button_main benefits_button">GET NOW</a>
+        <p class="button_main benefits_button" onclick="scrollToSub()">GET NOW</p>
       </div>
     </section>
     <section class="howitworks" id="how">
       <div class="how_wrapper">
-        <h2 class="section_title">How it works</h2>
+        <h2 class="section_title" data-aos="fade-right">How it works</h2>
         <div class="how_content_wrapper">
           <div class="how_content_item how_item1" data-aos="fade-up" data-aos-delay="300">
             <div class="how_content_text_item">
@@ -475,8 +489,8 @@
     </section>
     <section class="reviews">
       <div class="reviews_wrapper">
-        <h2 class="section_title">Success Stories</h2>
-        <div class="reviews_content_wrapper">
+        <h2 class="section_title" data-aos="fade-right">Success Stories</h2>
+        <div class="reviews_content_wrapper" data-aos="fade-up">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -544,7 +558,7 @@
       <img src="img/questions/bg.png" alt="" class="bg_img_q" />
       <div class="questions_wrapper">
         <div class="questions_info_wrapper">
-          <h2 class="section_title faq_title" data-aos="fade-up">Any questions?</h2>
+          <h2 class="section_title faq_title" data-aos="fade-right">Any questions?</h2>
           <p class="questions_info_subtitle" data-aos="fade-up">
             You can contact our support for additional information.
           </p>
@@ -693,7 +707,7 @@
           <img src="img/subscribe/mobimg.png" alt="mobbg" class="mobimg" />
         </div>
       </div>
-      <div class="sub_form_bg">
+      <div class="sub_form_bg sub_item_bg">
         <div class="main_form_wrapper sub_form_wrapper_item">
           <p class="mob_title_sub">Awaken Your Strength</p>
           <div class="main_form_content_wrapper sub_content_wrapper">
@@ -804,7 +818,6 @@
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="js/before-after.js"></script>
 
     <script>
       console.log(document.querySelector('.mySwiper'));
@@ -822,16 +835,5 @@
       });
     </script>
     <script src="js/script.js"></script>
-    <script>
-      new BeforeAfter({
-        id: '#one',
-      });
-      new BeforeAfter({
-        id: '#two',
-      });
-      new BeforeAfter({
-        id: '#three',
-      });
-    </script>
   </body>
 </html>
