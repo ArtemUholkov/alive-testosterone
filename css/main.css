@@ -8,6 +8,9 @@
   position: relative;
   overflow: hidden;
 }
+.hiden {
+  display: none;
+}
 .bg_form {
   position: absolute;
   right: -1500px;

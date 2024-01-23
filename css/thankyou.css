@@ -14,9 +14,25 @@ h1 {
   }
 }
 .thankyou_text_wrapper {
-  margin-top: 35svh;
+  margin-top: 39svh;
   text-align: center;
 }
+
+header {
+  background: transparent;
+}
+.th_main {
+  height: 100svh;
+}
+.th_mob_wrap {
+  margin-top: 0;
+  padding: 0;
+}
 .thankyoubutton {
+  max-width: 340px;
+  margin: 0 auto;
   margin-top: 20px;
+}
+h1 {
+  line-height: 120%;
 }

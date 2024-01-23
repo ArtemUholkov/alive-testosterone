@@ -75,17 +75,31 @@
     <div class="wrap_form_mob">
       <div class="main_form_wrapper">
         <div class="main_form_content_wrapper">
-          <form
-            class="sub_form_form forma"
-            action="https://postmail.invotes.com/send"
-            method="post"
-            id="email_form2"
-          >
+          <form class="sub_form_form forma" id="javascript_form2">
             <p class="main_form_title">You can leave your details to schedule a consultation</p>
             <div class="mainform_inputs_wrapper">
               <img src="img/main/cross.png" alt="" class="cross" />
+
+              <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                <input
+                  type="text"
+                  type="hidden"
+                  name="Subject"
+                  value="New Customer from website Testosterone"
+                />
+              </div>
+
+              <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                <input
+                  required
+                  type="text"
+                  name="text"
+                  value="New customer from website Testosterone"
+                />
+              </div>
+
               <div class="input-container">
-                <input required type="text" name="Subject" placeholder="Enter your name" />
+                <input required type="text" name="extra_name" placeholder="Enter your name" />
                 <label>Name</label>
               </div>
               <div class="input-container">
@@ -94,34 +108,28 @@
                   type="tel"
                   name="extra_phone_number"
                   placeholder="Enter your phone number"
+                  class="tel_container2"
                 />
                 <label>Phone</label>
               </div>
               <div class="input-container">
-                <input required type="email" name="text" placeholder="Enter your email address" />
+                <input
+                  required
+                  type="email"
+                  name="extra_email"
+                  placeholder="Enter your email address"
+                />
                 <label>Email</label>
               </div>
 
               <div class="input-container">
                 <input
-                  id="submit_form2"
+                  id="js_send2"
                   type="submit"
                   value="Confirm"
                   class="main_button form_button"
                 />
               </div>
-              <input type="hidden" name="access_token" value="" />
-
-              <input
-                type="hidden"
-                name="success_url"
-                value=".?message=Email+Successfully+Sent%21&isError=0"
-              />
-              <input
-                type="hidden"
-                name="error_url"
-                value=".?message=Email+could+not+be+sent.&isError=1"
-              />
             </div>
           </form>
         </div>
@@ -157,17 +165,31 @@
       <div class="bg_form">
         <div class="main_form_wrapper">
           <div class="main_form_content_wrapper">
-            <form
-              class="sub_form_form forma"
-              action="https://postmail.invotes.com/send"
-              method="post"
-              id="email_form2"
-            >
+            <form class="sub_form_form forma" id="javascript_form">
               <p class="main_form_title">You can leave your details to schedule a consultation</p>
               <div class="mainform_inputs_wrapper">
                 <img src="img/main/cross.png" alt="" class="cross" />
+
+                <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                  <input
+                    type="text"
+                    type="hidden"
+                    name="Subject"
+                    value="New Customer from website Testosterone"
+                  />
+                </div>
+
+                <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                  <input
+                    required
+                    type="text"
+                    name="text"
+                    value="New customer from website Testosterone"
+                  />
+                </div>
+
                 <div class="input-container">
-                  <input required type="text" name="Subject" placeholder="Enter your name" />
+                  <input required type="text" name="extra_name" placeholder="Enter your name" />
                   <label>Name</label>
                 </div>
                 <div class="input-container">
@@ -176,34 +198,29 @@
                     type="tel"
                     name="extra_phone_number"
                     placeholder="Enter your phone number"
+                    class="tel_container"
                   />
                   <label>Phone</label>
                 </div>
                 <div class="input-container">
-                  <input required type="email" name="text" placeholder="Enter your email address" />
+                  <input
+                    required
+                    type="email"
+                    name="extra_email"
+                    placeholder="Enter your email address"
+                  />
                   <label>Email</label>
                 </div>
 
                 <div class="input-container">
                   <input
-                    id="submit_form2"
+                    id="js_send"
                     type="submit"
                     value="Confirm"
                     class="main_button form_button"
                   />
                 </div>
                 <input type="hidden" name="access_token" value="" />
-
-                <input
-                  type="hidden"
-                  name="success_url"
-                  value=".?message=Email+Successfully+Sent%21&isError=0"
-                />
-                <input
-                  type="hidden"
-                  name="error_url"
-                  value=".?message=Email+could+not+be+sent.&isError=1"
-                />
               </div>
             </form>
           </div>
@@ -212,7 +229,7 @@
     </section>
     <section class="intro" id="price">
       <div class="intro_content_wrapper">
-        <div class="intro_texts_wrapper" data-aos="fade-right">
+        <div class="intro_texts_wrapper" data-aos="fade-up">
           <h2 class="intro_title">Revitalize Your Life with Testosterone Replacement Therapy</h2>
           <div class="intro_info">
             <p class="intro_info_text">
@@ -234,7 +251,7 @@
           </div>
           <p class="button_main intro_button" onclick="scrollToSub()">GET NOW</p>
         </div>
-        <div class="intro_bottle_wrapper" data-aos="fade-left">
+        <div class="intro_bottle_wrapper" data-aos="fade-up">
           <img src="img/intro/bottle.png" alt="" class="intro_bottle_img" />
           <div class="intro_item_one">
             <div class="intro_item_wrapper">
@@ -506,7 +523,7 @@
                   </div>
                   <div class="img-name_wrapper">
                     <img src="img/reviews/1st.png" alt="" class="reviews_img" />
-                    <p class="reviews_name">John White</p>
+                    <p class="reviews_name">Mike Fields</p>
                   </div>
                 </div>
               </div>
@@ -711,52 +728,60 @@
         <div class="main_form_wrapper sub_form_wrapper_item">
           <p class="mob_title_sub">Awaken Your Strength</p>
           <div class="main_form_content_wrapper sub_content_wrapper">
-            <form
-              class="sub_form_form forma"
-              action="https://postmail.invotes.com/send"
-              method="post"
-              id="email_form2"
-            >
+            <form class="sub_form_form forma" id="javascript_form3">
               <p class="main_form_title">You can leave your details to schedule a consultation</p>
               <div class="mainform_inputs_wrapper sub_wrap_form">
+                <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                  <input
+                    type="text"
+                    type="hidden"
+                    name="Subject"
+                    value="New Customer from website Testosterone"
+                  />
+                </div>
+
+                <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                  <input
+                    required
+                    type="text"
+                    name="text"
+                    value="New customer from website Testosterone"
+                  />
+                </div>
+
                 <div class="input-container">
-                  <input required type="text" name="Subject" placeholder="Enter your name" />
+                  <input required type="text" name="extra_name" placeholder="Enter your name" />
                   <label>Name</label>
                 </div>
+
                 <div class="input-container">
                   <input
                     required
                     type="tel"
                     name="extra_phone_number"
                     placeholder="Enter your phone number"
+                    class="tel_container3"
                   />
                   <label>Phone</label>
                 </div>
                 <div class="input-container">
-                  <input required type="email" name="text" placeholder="Enter your email address" />
+                  <input
+                    required
+                    type="email"
+                    name="extra_email"
+                    placeholder="Enter your email address"
+                  />
                   <label>Email</label>
                 </div>
 
                 <div class="input-container">
                   <input
-                    id="submit_form2"
+                    id="js_send3"
                     type="submit"
                     value="Confirm"
                     class="main_button form_button"
                   />
                 </div>
-                <input type="hidden" name="access_token" value="" />
-
-                <input
-                  type="hidden"
-                  name="success_url"
-                  value=".?message=Email+Successfully+Sent%21&isError=0"
-                />
-                <input
-                  type="hidden"
-                  name="error_url"
-                  value=".?message=Email+could+not+be+sent.&isError=1"
-                />
               </div>
             </form>
           </div>
