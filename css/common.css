@@ -147,6 +147,7 @@ html {
   width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 .main_button {
   display: flex;
@@ -179,6 +180,7 @@ body {
   z-index: 2;
   background: #deebec;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .container {
