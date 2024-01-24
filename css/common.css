@@ -86,7 +86,7 @@ td {
 
 body {
   line-height: 1;
-  overflow-x: hidden;
+
   overflow-y: scroll;
 }
 
@@ -145,7 +145,7 @@ input:focus::placeholder {
 }
 html {
   width: 100%;
-  overflow-x: hidden;
+
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
