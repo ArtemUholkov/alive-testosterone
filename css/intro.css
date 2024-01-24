@@ -39,6 +39,7 @@
   line-height: 140%;
 }
 .intro_start {
+  color: var(--usual-decorations);
   font-family: 'Montserrat';
   font-size: 24px;
   font-weight: 600;

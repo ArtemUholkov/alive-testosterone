@@ -140,6 +140,9 @@ p {
 /*COLOR VARIABLES END*/
 
 /*COMMONT STYLES START*/
+input:focus::placeholder {
+  color: transparent;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -173,6 +176,7 @@ body {
   margin: 0 auto;
   z-index: 2;
   background: #deebec;
+  overflow-x: hidden;
 }
 
 .container {
