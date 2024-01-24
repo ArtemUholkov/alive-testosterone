@@ -269,7 +269,12 @@
     padding: 145px 55px;
   }
   .transform_content_text_subtext {
+    width: 245px;
     font-size: 18px;
+  }
+  .transform_content_text_title {
+    font-size: 32px;
+    width: 245px;
   }
   .transform {
     max-height: 100%;

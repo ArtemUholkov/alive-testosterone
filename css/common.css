@@ -144,6 +144,8 @@ input:focus::placeholder {
   color: transparent;
 }
 html {
+  width: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 .main_button {

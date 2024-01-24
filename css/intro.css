@@ -121,10 +121,10 @@
   left: 0;
   border-radius: 60px;
   opacity: 0.2;
-  background: url('../img/intro/Rectangle.png'), lightgray 0% 0% / 100px 100px repeat;
+  background: url('../img/intro/Rectangle.png'), lightgray;
   background-size: 110% 110%;
   background-position: 15% 15%;
-  mix-blend-mode: overlay;
+  /* mix-blend-mode: overlay; */
   width: 323px;
   height: 177px;
 }
