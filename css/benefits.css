@@ -440,7 +440,7 @@
     align-items: center;
   }
   .benefits_content_item_title_text {
-    white-space: wrap;
+    white-space: initial;
   }
   .section_title {
     font-size: 32px;
@@ -452,6 +452,9 @@
   .benefits_content_item_title_text {
     text-align: center;
     font-size: 24px;
+  }
+  .wider_text {
+    width: 270px;
   }
   .benefits_content_item_subtitle_text {
     font-size: 18px;
