@@ -1,5 +1,3 @@
-AOS.init();
-
 const burger = document.querySelector('#burger');
 const popup = document.querySelector('#popup');
 const popupSlide = document.querySelector('#popupSlide');
