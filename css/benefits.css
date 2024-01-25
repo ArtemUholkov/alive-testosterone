@@ -435,14 +435,13 @@
     padding-bottom: 0px;
   }
   .benefits_content_item {
-    width: 100%;
+    width: 320px;
     height: auto;
+    align-items: center;
   }
   .benefits_content_item_title_text {
     white-space: wrap;
   }
-}
-@media (max-width: 600px) {
   .section_title {
     font-size: 32px;
     margin-bottom: 40px;
@@ -465,4 +464,6 @@
   h2 {
     min-width: 100px;
   }
+}
+@media (max-width: 600px) {
 }
