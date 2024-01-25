@@ -145,6 +145,7 @@ input:focus::placeholder {
 }
 html {
   width: 100%;
+
   overflow-x: hidden;
   overflow-y: initial;
   scroll-behavior: smooth;
