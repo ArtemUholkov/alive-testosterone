@@ -144,6 +144,8 @@ input:focus::placeholder {
   color: transparent;
 }
 html {
+  width: 100svw;
+
   /* width: 100%;
   overflow-x: hidden;
   overflow-y: initial; */
