@@ -177,7 +177,7 @@ html {
 }
 body {
   position: relative;
-  width: 100%;
+  width: 100svw;
   margin: 0 auto;
   z-index: 2;
   background: #deebec;
